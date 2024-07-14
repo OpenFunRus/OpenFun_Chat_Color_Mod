@@ -1,0 +1,13 @@
+<config>
+
+	<remove xpath="/windows/window[@name='chatoutput']" />
+
+	<append xpath="/windows">
+
+		<window name="chatoutput" pos="20, -250" depth="100" width="500" height="250" anchor="LeftTop" controller="ChatOutput" fadeout_wait_time="5" fadeout_duration="2">
+			<textlist name="txtOutput" pos="8,-214" width="484" height="210" list_style="chat" pivot="bottomleft" depth="2" font_size="26" crispness="Never" effect="Outline8" effect_color="0,0,0,255" effect_distance="2,2" />
+		</window>
+
+	</append>
+
+</config>
